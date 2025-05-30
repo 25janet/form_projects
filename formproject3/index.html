@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <span class = "bg-animate"></span>
+        <span class = "bg-animate2"></span>
+        <div class="formBoxLogin login">
+            <h2 class  = "animation" style = "--i:0;" >Login</h2>
+            <form action = " ">
+            <div class="inputBox animation" style = "--i:1;">
+                <input type="text" name="username" required>
+                <label>Username</label>
+                <ion-icon name="person-sharp" class  = "icon"></ion-icon>
+            </div>
+            <div class="inputBox animation" style = "--i:2;">
+                <input type="password" name="password" required>
+                <label>Password</label>
+                <ion-icon name="lock-closed" class = "icon"></ion-icon>
+            </div>
+            <button  type = "submit" class="btn animation" style = "--i:3;">
+                Login </button>
+                <div class="log-rellink animation" style = "--i:4;">
+                    <p>Dont have an account? <a href = "#" class = "register-link"> Sign up</a></p>
+                </div>
+                </form>
+        </div>
+        <div class = "info-text login">
+            <h2 class = "animation" style ="--i:0">WELCOME BACK!</h2>
+            <p class = "animation" style = "--i:1">lorem ipsum,dolor sit amet consequtetur adipisicing</p>
+        </div>
+        <div class="formBoxLogin register">
+            <h2 class = "animation" style = "--i:17; --j:0">Sign up</h2>
+            <form action = " ">
+            <div class="inputBox animation" style = "--i:18; --j:1">
+                <input type="text" name="username" required>
+                <label>Username</label>
+                <ion-icon name="person-sharp" class  = "icon"></ion-icon>
+            </div>
+            <div class = "inputBox animation" style = "--i:19 --j:2">
+                <input type = "email" name = "Email " required>
+                <label>Email</label>
+                <ion-icon name = "mail" class = "icon"></ion-icon>
+            </div>
+            <div class="inputBox animation" style = "--i:20 --j:3">
+                <input type="password" name="password" required>
+                <label>Password</label>
+                <ion-icon name="lock-closed" class = "icon"></ion-icon>
+            </div>
+            <button  type = "submit" class="btn animation" style = "--i:21 --j:4"> Login </button>
+                <div class="log-rellink animation" style = "--i:22 --j:5">
+                    <p>Already have an account? <a href = "#" class = "login-link" > Sign in</a></p>
+                </div>
+                </form>
+        </div>
+         <div class = "info-text register ">
+            <h2 class = "animation" style = "--i:17; --j:0;" >welcome back</h2>
+            <p class = "animation" style="--i:18; --j:1;">lorem ipsum,dolor sit amet</p>
+        </div>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src = "script.js"></script>
+    
+</body>
+</html>

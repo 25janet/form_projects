@@ -1,0 +1,126 @@
+section {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+.container {
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.formBoxLogin {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    text-align: center;
+    z-index: 1;
+}
+
+.formBoxRegister {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    text-align: center;
+}
+
+.formSlider {
+    display: flex;
+    width: 200%;
+    transition: transform 0.5s ease;
+}
+
+form {
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin: -10px 0;
+}
+
+.inputBox {
+    position: relative;
+    margin: 30px 0;
+}
+
+.inputBox input {
+    width: 90%;
+    padding: 12px 15px 12px 20px;
+    background: #eee;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+
+.inputBox input::placeholder {
+    color: #888;
+    font-weight: 400;
+}
+
+.inputBox .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #888;
+}
+
+.forgotPassword {
+    margin: -15px 0 15px;
+}
+
+.forgotPassword a {
+    font-size: 14.5px;
+    color: #888;
+    text-decoration: none;
+}
+
+.forgotPassword a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 90%;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background: #3F2B96;
+}
+
+.container p {
+    font-size: 14.5px;
+    margin: 15px 0;
+}
+
+.socialIcons a {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    font-size: 24px;
+    margin: 0px 8px;
+    padding: 5px;
+}
