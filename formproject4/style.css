@@ -21,7 +21,6 @@
     border-radius: 8px;
     animation: animateBlink 3s linear infinite;
     animation-delay: calc(var(--i) * (3s /50));
-    box-shadow: 0 0 10px #2c4766;
     transform-origin: 128px;
     transform:scale(2.2) rotate(calc(var(--i) * 360deg /50));
 }
@@ -130,4 +129,3 @@ h2{
 .signup-link a:hover {
     text-decoration: underline;
 }
-.
