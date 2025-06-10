@@ -1,0 +1,120 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+.container {
+    position: relative;
+    width: 450px;
+    height: 550px;
+    padding: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputbox {
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 12px 50px 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #eee;
+    color: black;
+    font-size: 18px;
+}
+
+.inputbox input::placeholder {
+    color: grey;
+    font-weight: 200;
+}
+
+.inputbox .icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+}
+
+.forgotPassword {
+    width: 100%;
+    text-align: right;
+    margin: -10px 0 20px;
+}
+
+.forgotPassword a {
+    text-decoration: none;
+    font-size: 14.5px;
+}
+
+.forgotPassword a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 90%;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+    background-color: #3F2B96;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: #2c1e6c;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #3F2B96;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
